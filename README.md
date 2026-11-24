@@ -26,3 +26,6 @@ We extract drop-by-drop through hand-blown glass Dutch towers over twelve unhurr
 
 ## Direct-Trade Farm Partnerships
 Every micro-lot is sourced directly from generational farms across Chikmagalur, Yirgacheffe, Huila, and Boquete at prices well above Fair Trade minimums.
+
+## Ceremonial Uji Matcha
+Directly imported from Wazuka hills in Uji, Kyoto. Shrouded under woven reed screens three weeks before harvest to elevate L-theanine and chlorophyll, then ground on granite stone mills and whisked with bamboo chasen.
