@@ -1,0 +1,325 @@
+/* ==========================================================================
+   MORROW CAFÉ — Modern Editorial CSS System
+   Japanese Minimalism × European Café Aesthetics
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-primary: #F5F2EA;
+  --bg-secondary: #EBE6DB;
+  --bg-tertiary: #E3DDD0;
+  --bg-card: #FAF8F3;
+  --bg-card-hover: #FFFFFF;
+  --bg-dark: #242720;
+  --bg-dark-subtle: #2C3028;
+
+  --text-primary: #242720;
+  --text-secondary: #575B51;
+  --text-muted: #7E8377;
+  --text-light: #F5F2EA;
+  --text-light-muted: #B8BCB0;
+
+  --accent-sage: #A3AA91;
+  --accent-sage-light: #C2C8B5;
+  --accent-sage-dark: #7F876D;
+  --accent-sage-bg: rgba(163, 170, 145, 0.15);
+
+  --accent-terracotta: #BD785F;
+  --accent-terracotta-hover: #A6644C;
+  --accent-terracotta-soft: #D99680;
+  --accent-terracotta-bg: rgba(189, 120, 95, 0.12);
+
+  --border-hairline: rgba(36, 39, 32, 0.08);
+  --border-subtle: rgba(36, 39, 32, 0.12);
+  --border-medium: rgba(36, 39, 32, 0.22);
+  --border-dark: rgba(245, 242, 234, 0.15);
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-jp: 'Noto Serif JP', 'Cormorant Garamond', serif;
+
+  /* Layout Spacing */
+  --site-max-width: 1360px;
+  --section-padding-y: clamp(4.5rem, 8vw, 8rem);
+  --section-padding-x: clamp(1.25rem, 5vw, 4rem);
+
+  /* Transitions */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-normal: 0.35s;
+  --duration-slow: 0.7s;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.65;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Subtle editorial paper grain texture */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(rgba(36, 39, 32, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.7;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--duration-normal) var(--ease-smooth);
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--accent-sage-light);
+  color: var(--text-primary);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-sage);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-sage-dark);
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--section-padding-x);
+  padding-right: var(--section-padding-x);
+}
+
+.section {
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
+  position: relative;
+}
+
+/* Editorial Grid line accents */
+.editorial-line {
+  height: 1px;
+  background-color: var(--border-hairline);
+  width: 100%;
+}
+
+.editorial-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent-terracotta);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.editorial-tag::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background-color: var(--accent-terracotta);
+}
+
+.editorial-subheading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.jp-accent {
+  font-family: var(--font-jp);
+  color: var(--accent-sage-dark);
+  font-weight: 300;
+  letter-spacing: 0.25em;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.9rem 1.85rem;
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  font-size: 0.825rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: all 0.3s var(--ease-editorial);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-terracotta);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -10px rgba(189, 120, 95, 0.35);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.9rem 1.85rem;
+  background-color: transparent;
+  color: var(--text-primary);
+  font-size: 0.825rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--border-medium);
+  border-radius: 2px;
+  transition: all 0.3s var(--ease-editorial);
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-primary);
+  background-color: rgba(36, 39, 32, 0.04);
+  transform: translateY(-2px);
+}
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.btn-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0.3);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease-editorial);
+}
+
+.btn-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Image wrappers with subtle frame */
+.editorial-image-frame {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+}
+
+.editorial-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+.editorial-image-frame:hover img {
+  transform: scale(1.03);
+}
+
+/* Desktop Custom Cursor Hide Native Cursor */
+@media (hover: hover) and (pointer: fine) {
+  body, a, button, [role="button"], input, select, textarea {
+    cursor: none !important;
+  }
+}
+
+/* Site wrapper prevent horizontal scroll */
+.site-wrapper {
+  overflow-x: clip;
+  width: 100%;
+  position: relative;
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
