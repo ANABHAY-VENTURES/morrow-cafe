@@ -23,3 +23,6 @@ In Japanese aesthetics, 'Ma' is the negative space that gives form to the whole.
 
 ## Single-Origin Slow Roasts
 We extract drop-by-drop through hand-blown glass Dutch towers over twelve unhurried hours. This thermal-free extraction leaves harsh chlorogenic acids locked inside ground cell walls while liberating delicate floral esters and terpenes.
+
+## Direct-Trade Farm Partnerships
+Every micro-lot is sourced directly from generational farms across Chikmagalur, Yirgacheffe, Huila, and Boquete at prices well above Fair Trade minimums.
