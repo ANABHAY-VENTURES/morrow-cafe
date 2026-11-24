@@ -85,3 +85,9 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## Colophon & Credits
+- **Architectural Woodwork**: Hinoki & Co.
+- **Ceramics**: Kasama Pottery Guild
+- **Engineering**: React 19, Vite, Framer Motion, Lucide React
+- **License**: MIT
