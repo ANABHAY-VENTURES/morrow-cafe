@@ -51,3 +51,6 @@ Filter across `Coffee`, `Matcha`, `Breakfast`, and `Bakery` or search in real ti
 
 ## Mini Order Tray & Subtotal Engine
 Add items directly from cards or modal views, adjust quantities, toggle between *Dine-in Table* and *Counter Pickup*, and place simulated prototype orders with local storage persistence.
+
+## Table Reservation System
+Multi-step booking form validated for phone, email, and future calendar dates. Confirmed bookings generate reference codes stored in `localStorage.getItem('morrow_cafe_reservations')`.
