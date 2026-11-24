@@ -20,3 +20,6 @@ The brand draws inspiration from Kyoto's historic, contemplative kissaten cultur
 
 ## The Philosophy of Ma (「間」)
 In Japanese aesthetics, 'Ma' is the negative space that gives form to the whole. In our digital layouts, generous whitespace acts not as emptiness, but as a deliberate interval allowing each image and paragraph room to breathe.
+
+## Single-Origin Slow Roasts
+We extract drop-by-drop through hand-blown glass Dutch towers over twelve unhurried hours. This thermal-free extraction leaves harsh chlorogenic acids locked inside ground cell walls while liberating delicate floral esters and terpenes.
