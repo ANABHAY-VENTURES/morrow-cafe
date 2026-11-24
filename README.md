@@ -29,3 +29,6 @@ Every micro-lot is sourced directly from generational farms across Chikmagalur, 
 
 ## Ceremonial Uji Matcha
 Directly imported from Wazuka hills in Uji, Kyoto. Shrouded under woven reed screens three weeks before harvest to elevate L-theanine and chlorophyll, then ground on granite stone mills and whisked with bamboo chasen.
+
+## 72-Hour Pastry Lamination
+Our Swedish cardamom knots, Brittany kouign-amann, and beeswax canelés undergo slow cold fermentation with cultured lactic butter, creating fragile honeycomb interiors and shattering golden crusts.
