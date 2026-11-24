@@ -40,3 +40,8 @@ Our Swedish cardamom knots, Brittany kouign-amann, and beeswax canelés undergo 
 
 ## Custom Cursor & Magnetic Interactions
 Desktop users experience a custom dual-ring spring cursor with contextual states: expanding into a terracotta glow over links, and morphing into an ivory `VIEW` lens badge over imagery.
+
+## Cinematic Motion Design
+- Letter-by-letter brand entrance in the preloader.
+- Word-by-word headline reveal in the Hero section.
+- Framer Motion image clipping transitions (`clipPath: inset(...)`) with multi-depth scroll parallax.
