@@ -57,3 +57,6 @@ Multi-step booking form validated for phone, email, and future calendar dates. C
 
 ## Concierge Inquiries
 Dedicated contact panel supporting event, coffee supply, and media inquiries with real-time feedback and direct `tel:` and `mailto:` action links.
+
+## Ambient Atmosphere & Live Clock
+Floating vinyl player pill sharing the café's current jazz track (e.g., Bill Evans), synchronized with live Bengaluru Indian Standard Time (IST).
