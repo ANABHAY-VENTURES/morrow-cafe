@@ -60,3 +60,6 @@ Dedicated contact panel supporting event, coffee supply, and media inquiries wit
 
 ## Ambient Atmosphere & Live Clock
 Floating vinyl player pill sharing the café's current jazz track (e.g., Bill Evans), synchronized with live Bengaluru Indian Standard Time (IST).
+
+## Mobile First & Responsive Design
+Tested across phone, tablet, and widescreen desktop viewports with a 44px touch target baseline and zero horizontal overflow (`overflow-x: clip`).
