@@ -12,3 +12,8 @@ The brand draws inspiration from Kyoto's historic, contemplative kissaten cultur
 - **Charcoal (`#242720`)**: Deep organic charcoal typography instead of stark pitch black.
 - **Muted Sage Green (`#A3AA91`)**: Botanical accents inspired by Japanese tea plantations.
 - **Subtle Terracotta (`#BD785F`)**: Tactile warmth referencing fired Kasama pottery and baked crusts.
+
+## Typography System
+- **Display Headings**: *Cormorant Garamond* — classical, graceful editorial serif.
+- **Contemporary Body**: *Plus Jakarta Sans* — geometric, highly legible modern grotesque.
+- **Calligraphic Watermarks**: *Noto Serif JP* — authentic Japanese typography celebrating *Ma* (余白).
