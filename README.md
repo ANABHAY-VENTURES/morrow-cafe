@@ -17,3 +17,6 @@ The brand draws inspiration from Kyoto's historic, contemplative kissaten cultur
 - **Display Headings**: *Cormorant Garamond* — classical, graceful editorial serif.
 - **Contemporary Body**: *Plus Jakarta Sans* — geometric, highly legible modern grotesque.
 - **Calligraphic Watermarks**: *Noto Serif JP* — authentic Japanese typography celebrating *Ma* (余白).
+
+## The Philosophy of Ma (「間」)
+In Japanese aesthetics, 'Ma' is the negative space that gives form to the whole. In our digital layouts, generous whitespace acts not as emptiness, but as a deliberate interval allowing each image and paragraph room to breathe.
