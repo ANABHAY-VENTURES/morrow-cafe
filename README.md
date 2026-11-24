@@ -48,3 +48,6 @@ Desktop users experience a custom dual-ring spring cursor with contextual states
 
 ## Interactive Menu & Search
 Filter across `Coffee`, `Matcha`, `Breakfast`, and `Bakery` or search in real time across ingredients, roast profiles, and origins with instant empty states and filter reset shortcuts.
+
+## Mini Order Tray & Subtotal Engine
+Add items directly from cards or modal views, adjust quantities, toggle between *Dine-in Table* and *Counter Pickup*, and place simulated prototype orders with local storage persistence.
