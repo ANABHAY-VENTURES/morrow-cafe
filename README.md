@@ -32,3 +32,8 @@ Directly imported from Wazuka hills in Uji, Kyoto. Shrouded under woven reed scr
 
 ## 72-Hour Pastry Lamination
 Our Swedish cardamom knots, Brittany kouign-amann, and beeswax canelés undergo slow cold fermentation with cultured lactic butter, creating fragile honeycomb interiors and shattering golden crusts.
+
+## Architectural Zones
+1. **The Omakase Coffee Bar**: 9-meter solid Hinoki cypress counter with low-noise Mahlkönig grinders.
+2. **The Kyoto Courtyard**: Natural rain garden acoustics and filtered sunlight.
+3. **The Reading Mezzanine**: 400-volume design monograph library without laptop chargers.
