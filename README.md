@@ -69,3 +69,19 @@ Includes comprehensive ARIA dialog roles, focus management, and automatic disabl
 
 ## Performance & Code Splitting
 Configured with Vite 6 and Rollup manualChunks separating `vendor-react`, `vendor-framer`, and `vendor-icons` for instant initial load times and cache efficiency.
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Souvik-Das-23/morrow-cafe.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
