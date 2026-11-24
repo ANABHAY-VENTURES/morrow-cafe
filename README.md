@@ -54,3 +54,6 @@ Add items directly from cards or modal views, adjust quantities, toggle between 
 
 ## Table Reservation System
 Multi-step booking form validated for phone, email, and future calendar dates. Confirmed bookings generate reference codes stored in `localStorage.getItem('morrow_cafe_reservations')`.
+
+## Concierge Inquiries
+Dedicated contact panel supporting event, coffee supply, and media inquiries with real-time feedback and direct `tel:` and `mailto:` action links.
