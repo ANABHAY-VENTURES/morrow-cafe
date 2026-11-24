@@ -63,3 +63,6 @@ Floating vinyl player pill sharing the café's current jazz track (e.g., Bill Ev
 
 ## Mobile First & Responsive Design
 Tested across phone, tablet, and widescreen desktop viewports with a 44px touch target baseline and zero horizontal overflow (`overflow-x: clip`).
+
+## Accessibility & Reduced Motion
+Includes comprehensive ARIA dialog roles, focus management, and automatic disablement of transitions when `prefers-reduced-motion: reduce` is detected.
