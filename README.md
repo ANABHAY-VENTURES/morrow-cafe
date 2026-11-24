@@ -45,3 +45,6 @@ Desktop users experience a custom dual-ring spring cursor with contextual states
 - Letter-by-letter brand entrance in the preloader.
 - Word-by-word headline reveal in the Hero section.
 - Framer Motion image clipping transitions (`clipPath: inset(...)`) with multi-depth scroll parallax.
+
+## Interactive Menu & Search
+Filter across `Coffee`, `Matcha`, `Breakfast`, and `Bakery` or search in real time across ingredients, roast profiles, and origins with instant empty states and filter reset shortcuts.
