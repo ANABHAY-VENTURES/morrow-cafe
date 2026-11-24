@@ -37,3 +37,6 @@ Our Swedish cardamom knots, Brittany kouign-amann, and beeswax canelés undergo 
 1. **The Omakase Coffee Bar**: 9-meter solid Hinoki cypress counter with low-noise Mahlkönig grinders.
 2. **The Kyoto Courtyard**: Natural rain garden acoustics and filtered sunlight.
 3. **The Reading Mezzanine**: 400-volume design monograph library without laptop chargers.
+
+## Custom Cursor & Magnetic Interactions
+Desktop users experience a custom dual-ring spring cursor with contextual states: expanding into a terracotta glow over links, and morphing into an ivory `VIEW` lens badge over imagery.
