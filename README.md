@@ -66,3 +66,6 @@ Tested across phone, tablet, and widescreen desktop viewports with a 44px touch 
 
 ## Accessibility & Reduced Motion
 Includes comprehensive ARIA dialog roles, focus management, and automatic disablement of transitions when `prefers-reduced-motion: reduce` is detected.
+
+## Performance & Code Splitting
+Configured with Vite 6 and Rollup manualChunks separating `vendor-react`, `vendor-framer`, and `vendor-icons` for instant initial load times and cache efficiency.
