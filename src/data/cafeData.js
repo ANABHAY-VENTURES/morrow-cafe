@@ -42,11 +42,13 @@ export const MENU_ITEMS = [
     japanese: "水出し珈琲",
     price: 320,
     tags: ["Signature", "Cold", "Single Origin"],
-    description: "Extracted drop by single drop through hand-blown glass Dutch towers over twelve unhurried hours. Silky mouthfeel with wine-like clarity.",
+    description: "Extracted drop by single drop through hand-blown glass Dutch towers over twelve unhurried hours. Silky mouthfeel with wine-like clarity and zero bitterness.",
     notes: "Black cherry, cacao nibs, dried orange blossom",
     origin: "Yirgacheffe, Ethiopia • Washed Heirloom",
-    image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
-    pairing: "Cardamom Orange Knot",
+    elevation: "2,050m",
+    brewMethod: "12-Hour Dutch Drip • 1 Drop per 1.5s",
+    image: "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=900&q=85",
+    pairing: "Swedish Cardamom & Orange Knot",
     badge: "House Specialty"
   },
   {
@@ -56,11 +58,13 @@ export const MENU_ITEMS = [
     japanese: "手淹れゲイシャ",
     price: 460,
     tags: ["Limited Batch", "Hot", "Filter"],
-    description: "Prepared table-side with 92°C mineral-adjusted spring water. Unfolds in delicate floral waves with tea-like grace.",
+    description: "Prepared table-side with 92°C mineral-adjusted spring water in Kasama ceramic drippers. Unfolds in delicate floral waves with tea-like grace.",
     notes: "White peach, bergamot, jasmine tea, elderflower honey",
     origin: "Boquete, Panama • Natural Anaerobic",
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
-    pairing: "Yuzu Meringue Choux",
+    elevation: "1,800m",
+    brewMethod: "Hario V60 • 92°C Spring Water • 1:16 Ratio",
+    image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85",
+    pairing: "Bordeaux Canelé with Uji Matcha",
     badge: "Reserve Lot"
   },
   {
@@ -70,11 +74,13 @@ export const MENU_ITEMS = [
     japanese: "雲コルタド",
     price: 280,
     tags: ["Hot", "Milk Beverage"],
-    description: "Equal measures of rich double ristretto and silky micro-steamed A2 jersey milk, served in hand-thrown Kasama ceramic cups.",
+    description: "Equal measures of rich double ristretto and silky micro-steamed A2 jersey milk, served in hand-thrown Kasama ceramic cups at 62°C.",
     notes: "Brown butter, hazelnut praline, stone fruit finish",
     origin: "Chikmagalur Estate, India • Extended Fermentation",
-    image: "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
-    pairing: "Matcha Pistachio Canelé",
+    elevation: "1,450m",
+    brewMethod: "Double Ristretto 1:1.5 • Velvety Microfoam",
+    image: "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=900&q=85",
+    pairing: "Salted Brittany Kouign-Amann",
     badge: "Guest Favorite"
   },
   {
@@ -84,11 +90,13 @@ export const MENU_ITEMS = [
     japanese: "トンカフラットホワイト",
     price: 295,
     tags: ["Hot", "Signature Blend"],
-    description: "Velvety espresso infused with faint botanical tonka bean shaving, offering whispers of vanilla and sweet woodruff without added sugar.",
-    notes: "Vanilla pod, marzipan, dark toffee",
+    description: "Velvety espresso infused with faint botanical tonka bean shaving, offering whispers of vanilla and sweet woodruff without added refined sugar.",
+    notes: "Vanilla pod, marzipan, dark toffee, sweet woodruff",
     origin: "Co-fermented Karnataka Micro-lot & Huila Colombia",
-    image: "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&q=80",
-    pairing: "Kouign-Amann with Sea Salt",
+    elevation: "1,600m",
+    brewMethod: "Espresso Extraction • Grated Wild Amazon Tonka",
+    image: "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=900&q=85",
+    pairing: "Salted Brittany Kouign-Amann",
     badge: "Seasonal"
   },
   {
@@ -98,11 +106,13 @@ export const MENU_ITEMS = [
     japanese: "宇治抹茶ラテ",
     price: 340,
     tags: ["Hot or Iced", "Ceremonial Grade"],
-    description: "First-harvest organic tencha whisked with traditional bamboo chasen. Velvety, vividly emerald, with zero bitterness and natural umami.",
+    description: "First-harvest organic tencha whisked with traditional bamboo chasen. Velvety, vividly emerald, with zero bitterness and natural umami sweetness.",
     notes: "Young sweet bamboo, sweet cream, toasted nori, honeydew",
-    origin: "Uji, Kyoto, Japan • Cultivar Gokou & Samidori",
-    image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=800&q=80",
-    pairing: "Matcha Pistachio Canelé",
+    origin: "Wazuka Hills, Uji, Kyoto • Cultivar Gokou & Samidori",
+    elevation: "Stone Ground Tencha",
+    brewMethod: "Traditional Chasen Whisk • 80°C • Oat or A2 Milk",
+    image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=900&q=85",
+    pairing: "Bordeaux Canelé with Uji Matcha",
     badge: "Direct Farm Import"
   },
   {
@@ -114,9 +124,11 @@ export const MENU_ITEMS = [
     tags: ["Hot", "Low Caffeine"],
     description: "Slow wood-roasted green tea leaves brewed into a deep amber liquor, topped with cold aerated oat cream and cinnamon bark dust.",
     notes: "Toasted hazelnut, warm campfire, smoked malt, cocoa",
-    origin: "Shizuoka, Japan • Slow Pan Roasted",
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
-    pairing: "Cardamom Orange Knot",
+    origin: "Shizuoka, Japan • Slow Pan Roasted Green Tea",
+    elevation: "Charcoal Fired",
+    brewMethod: "Steeped 4 Mins at 95°C • Aerated Cloud Foam",
+    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85",
+    pairing: "Swedish Cardamom & Orange Knot",
     badge: "Comforting"
   },
   {
@@ -128,8 +140,10 @@ export const MENU_ITEMS = [
     tags: ["Fresh Baked", "Heritage"],
     description: "Braided Scandinavian brioche dough twisted with freshly crushed green cardamom pods, French Normandy butter, and house-candied Seville orange peel.",
     notes: "Floral spice, golden caramelized butter, citrus zest",
-    origin: "Baked every morning at 06:00",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    origin: "Baked in-house every morning at 06:00",
+    elevation: "Hand-Braided Daily",
+    brewMethod: "French Normandy Lactic Butter • Single-origin Cardamom",
+    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
     pairing: "Morrow Cloud Cortado",
     badge: "Signature Bake"
   },
@@ -141,10 +155,12 @@ export const MENU_ITEMS = [
     price: 260,
     tags: ["Fresh Baked", "Laminated"],
     description: "Multi-layered Breton pastry layered with churned lactic butter and golden sugar that caramelizes into a glass-crisp outer crust with a melting center.",
-    notes: "Guerande sea salt, caramelized sugar crust, cultured butter",
+    notes: "Guérande sea salt, caramelized sugar crust, cultured butter",
     origin: "72-hour slow laminated sourdough base",
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
-    pairing: "Kyoto Slow Drip",
+    elevation: "72h Cold Fermentation",
+    brewMethod: "Stone Oven Baked • 36 Fragile Micro-Layers",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85",
+    pairing: "Kyoto Slow Drip (12h Cold Steep)",
     badge: "Flaky & Crisp"
   },
   {
@@ -154,10 +170,12 @@ export const MENU_ITEMS = [
     japanese: "カヌレ・ボルドー",
     price: 190,
     tags: ["Traditional", "Vegetarian"],
-    description: "Baked in genuine copper fluted molds lined with organic beeswax. Dark caramelised crunchy shell hiding a soft custard interior infused with aged rum and Uji matcha.",
+    description: "Baked in genuine copper fluted molds lined with organic beeswax. Dark caramelized crunchy shell hiding a soft custard interior infused with aged rum and Uji matcha.",
     notes: "Custard, charred caramel, Madagascar vanilla, grassy matcha",
-    origin: "Limited to 48 pieces per service",
-    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+    origin: "Limited allocation of 48 pieces baked per service",
+    elevation: "Copper Molds • Organic Beeswax",
+    brewMethod: "Aged 48h Batter • High Heat Copper Bake",
+    image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=900&q=85",
     pairing: "Hand-Poured Panama Geisha V60",
     badge: "Daily Allocation"
   },
@@ -171,7 +189,9 @@ export const MENU_ITEMS = [
     description: "Thick-cut, cloud-like Japanese Hokkaido milk bread toasted in clarified butter, topped with pan-seared king oyster and shiitake mushrooms, miso glaze, and poached farm egg.",
     notes: "Earthy umami, thyme butter, creamy egg yolk, brioche sweetness",
     origin: "Locally foraged Nilgiri mushrooms & house-baked loaf",
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+    elevation: "Hand-Rolled Shokupan",
+    brewMethod: "Clarified Butter Toast • Truffled Thyme Reduction",
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=85",
     pairing: "Smoked Tonka Flat White",
     badge: "Chef's Recommendation"
   },
@@ -185,8 +205,10 @@ export const MENU_ITEMS = [
     description: "Koshihikari seasoned rice with toasted sesame, grilled king salmon flake or marinated tofu, soft onsen tamago, pickled daikon, and piping hot smoked bonito dashi poured at table.",
     notes: "Comforting, smoky dashi, bright acidity of preserved plum",
     origin: "Heritage Japanese breakfast ritual reimagined",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
-    pairing: "Yuzu Blossom Sencha",
+    elevation: "Niigata Koshihikari Rice",
+    brewMethod: "Katsuobushi & Kombu Drip Broth Poured at Table",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85",
+    pairing: "Roasted Hojicha & Spiced Cream",
     badge: "Soulful"
   },
   {
@@ -199,8 +221,10 @@ export const MENU_ITEMS = [
     description: "Charred country sourdough spread with house-whipped lemon zest sheep ricotta, sliced Turkish purple figs, crushed pistachios, and a drizzle of raw Coorg blossom honey.",
     notes: "Creamy, floral citrus, chewy sourdough tang, sweet fig",
     origin: "Naturally fermented 36-hour levain sourdough",
-    image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=800&q=80",
-    pairing: "Panama Geisha V60",
+    elevation: "Organic Coorg Blossom Honey",
+    brewMethod: "Cast Iron Charred Sourdough • Hand-Whipped Ricotta",
+    image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=900&q=85",
+    pairing: "Hand-Poured Panama Geisha V60",
     badge: "Seasonal Plate"
   }
 ];
@@ -213,7 +237,7 @@ export const SPACE_ZONES = [
     tagline: "Front-row dialogue with the craft",
     description: "A continuous 9-meter counter sculptured from solid Hinoki cypress wood and honed basalt stone. Here, baristas operate silent Mahlkönig grinders and custom manual lever machines, inviting conversation on every brew parameter.",
     features: ["Custom Sanremo Opera machine", "Acoustically damped bar seating", "Daily single-origin flight tastings"],
-    image: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1100&q=85",
   },
   {
     id: "courtyard",
@@ -222,7 +246,7 @@ export const SPACE_ZONES = [
     tagline: "Light filtering through Japanese maples",
     description: "An internal open-air atrium framed by raw concrete and reclaimed teak. Crushed grey granite reflects morning light, creating ever-shifting shadow tapestries across the limestone walls as you sip.",
     features: ["Natural rain garden acoustics", "Filtered morning sun exposure", "Pet friendly outdoor sanctuary"],
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1100&q=85",
   },
   {
     id: "library",
@@ -231,7 +255,7 @@ export const SPACE_ZONES = [
     tagline: "A sanctuary for deep contemplation",
     description: "Tucked above the café floor, our mezzanine holds an unhurried archive of design monographs, Japanese architecture essays, poetry, and art journals. No laptop charging plugs, no hurry.",
     features: ["Curated 400-volume design library", "Linen-upholstered reading armchairs", "Warm 2700K indirect mood lighting"],
-    image: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1100&q=85",
   }
 ];
 
@@ -257,31 +281,31 @@ export const JOURNAL_POSTS = [
   {
     id: "art-of-slow-drip",
     date: "November 18, 2026",
-    category: "Brew Methods",
+    category: "Brew Chemistry",
     readTime: "4 min read",
     title: "The Geometry of Slow Drip: Why 12 Hours Produce Coffee with Wine-Like Clarity",
     excerpt: "Watching cold water fall drop by single drop through spiral glass columns is both meditation and chemistry. Here is what happens when heat is removed from coffee extraction.",
-    image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=85",
     content: "When coffee is extracted without thermal energy, the harsh bitter oils and chlorogenic acids remain locked within the ground cell walls. What releases instead are the delicate soluble esters, sugars, and fragrant terpenes..."
   },
   {
     id: "uji-matcha-harvest",
     date: "October 29, 2026",
-    category: "Origins",
+    category: "Tea Cultivars",
     readTime: "6 min read",
     title: "Under Straw Screens: A Journey to the Fog-Covered Hills of Uji, Kyoto",
     excerpt: "Three weeks before harvest, green tea bushes are shrouded beneath woven reed mats to starve them of sunlight. The plant responds with an explosion of chlorophyll and L-theanine.",
-    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1545048702-793607ce028f?auto=format&fit=crop&w=900&q=85",
     content: "Walking through the terraced tea hills of Wazuka in Uji Prefecture at 6 AM, mist clings to the river valley like spun silk. Here, tea has been tended by the same family lineage since the Kamakura period..."
   },
   {
     id: "architecture-of-stillness",
     date: "October 10, 2026",
-    category: "Design & Space",
+    category: "Spatial Design",
     readTime: "5 min read",
     title: "Tactile Silence: Designing a Café Without Audio Clutter or Sensory Fatigue",
     excerpt: "How we worked with local acoustic architects and carpenters to craft an interior where whispers carry warmth without becoming a din.",
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85",
     content: "Modern spaces are excessively loud. Between hard polished marble, stainless steel espresso equipment, and blaring pop soundtracks, dining out has become acoustically hostile. Morrow was conceived as an acoustic sanctuary..."
   }
 ];

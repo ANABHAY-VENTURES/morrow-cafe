@@ -119,23 +119,34 @@ export default function Footer() {
             }}
             className="footer-brand-col"
           >
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', marginBottom: '1.25rem' }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.65rem', marginBottom: '1.25rem' }}>
               <span
                 style={{
                   fontFamily: 'var(--font-serif)',
                   fontSize: '2.4rem',
                   fontWeight: 500,
-                  letterSpacing: '0.12em',
+                  letterSpacing: '0.18em',
                   textTransform: 'uppercase',
                 }}
               >
                 MORROW
               </span>
               <span
+                style={{
+                  display: 'inline-block',
+                  width: '5px',
+                  height: '5px',
+                  borderRadius: '50%',
+                  backgroundColor: 'var(--accent-terracotta)',
+                  transform: 'translateY(-4px)',
+                }}
+              />
+              <span
                 className="jp-accent"
                 style={{
                   fontSize: '1.3rem',
                   color: 'var(--accent-sage)',
+                  letterSpacing: '0.2em',
                 }}
               >
                 明日
@@ -143,10 +154,11 @@ export default function Footer() {
               <span
                 style={{
                   fontSize: '0.75rem',
-                  letterSpacing: '0.2em',
+                  letterSpacing: '0.22em',
                   textTransform: 'uppercase',
                   color: 'var(--accent-terracotta)',
                   fontWeight: 600,
+                  marginLeft: '0.15rem',
                 }}
               >
                 CAFÉ

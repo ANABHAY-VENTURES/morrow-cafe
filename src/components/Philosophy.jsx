@@ -142,8 +142,8 @@ export default function Philosophy() {
               data-cursor="view"
             >
               <motion.img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80"
-                alt="Barista precisely brewing coffee with manual pour-over kettle"
+                src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1000&q=85"
+                alt="Artisanal manual pour-over coffee extraction in ceramic dripper"
                 style={{
                   width: '100%',
                   height: '112%',
@@ -176,8 +176,8 @@ export default function Philosophy() {
               className="philosophy-small-photo"
             >
               <img
-                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
-                alt="Ceramic cup with freshly brewed filter coffee"
+                src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=600&q=85"
+                alt="Fresh single-origin coffee served in handcrafted ceramic cup on Hinoki wood counter"
                 style={{
                   width: '100%',
                   height: '100%',

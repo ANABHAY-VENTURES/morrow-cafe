@@ -11,7 +11,7 @@ export default function JournalModal({ post, onClose }) {
         style={{
           position: 'fixed',
           inset: 0,
-          zIndex: 999,
+          zIndex: 9999,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',

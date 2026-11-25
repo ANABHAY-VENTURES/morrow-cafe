@@ -58,13 +58,14 @@ export default function Navbar({ onOpenReserve, onOpenCart, cartItemCount = 0 })
       }}
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        {/* Brand Logo with animated hover expansion */}
+        {/* Brand Wordmark & Seal */}
         <a
           href="#"
+          aria-label="MORROW CAFÉ — Home"
           style={{
             display: 'flex',
             alignItems: 'baseline',
-            gap: '0.6rem',
+            gap: '0.65rem',
             textDecoration: 'none',
             color: 'var(--text-primary)',
           }}
@@ -72,20 +73,32 @@ export default function Navbar({ onOpenReserve, onOpenCart, cartItemCount = 0 })
           <span
             style={{
               fontFamily: 'var(--font-serif)',
-              fontSize: '1.65rem',
+              fontSize: '1.75rem',
               fontWeight: 500,
-              letterSpacing: '0.14em',
+              letterSpacing: '0.18em',
               textTransform: 'uppercase',
+              lineHeight: 1,
             }}
           >
             MORROW
           </span>
           <span
+            style={{
+              display: 'inline-block',
+              width: '4px',
+              height: '4px',
+              borderRadius: '50%',
+              backgroundColor: 'var(--accent-terracotta)',
+              transform: 'translateY(-3px)',
+            }}
+          />
+          <span
             className="jp-accent"
             style={{
-              fontSize: '0.9rem',
-              opacity: 0.75,
+              fontSize: '0.95rem',
+              opacity: 0.85,
               fontWeight: 300,
+              letterSpacing: '0.2em',
             }}
           >
             明日
@@ -93,11 +106,11 @@ export default function Navbar({ onOpenReserve, onOpenCart, cartItemCount = 0 })
           <span
             style={{
               fontSize: '0.65rem',
-              letterSpacing: '0.2em',
+              letterSpacing: '0.22em',
               textTransform: 'uppercase',
               color: 'var(--accent-terracotta)',
               fontWeight: 600,
-              marginLeft: '0.2rem',
+              marginLeft: '0.15rem',
             }}
           >
             CAFÉ

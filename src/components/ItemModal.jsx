@@ -242,6 +242,18 @@ export default function ItemModal({ item, onClose, onReserveTable, onAddToCart }
                 <strong style={{ color: 'var(--text-primary)' }}>Terroir / Origin: </strong>
                 <span style={{ color: 'var(--text-secondary)' }}>{item.origin}</span>
               </div>
+              {item.brewMethod && (
+                <div>
+                  <strong style={{ color: 'var(--text-primary)' }}>Craft & Extraction: </strong>
+                  <span style={{ color: 'var(--text-secondary)' }}>{item.brewMethod}</span>
+                </div>
+              )}
+              {item.elevation && (
+                <div>
+                  <strong style={{ color: 'var(--text-primary)' }}>Elevation / Process: </strong>
+                  <span style={{ color: 'var(--text-secondary)' }}>{item.elevation}</span>
+                </div>
+              )}
               {item.pairing && (
                 <div>
                   <strong style={{ color: 'var(--accent-terracotta)' }}>Recommended Pairing: </strong>
