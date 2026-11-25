@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Plus, Minus, Check, ArrowRight, Calendar, Tag } from 'lucide-react';
 import MagneticButton from './MagneticButton';
@@ -6,6 +6,29 @@ import MagneticButton from './MagneticButton';
 export default function ItemModal({ item, onClose, onReserveTable, onAddToCart }) {
   const [quantity, setQuantity] = useState(1);
   const [justAdded, setJustAdded] = useState(false);
+
+  // Close on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && item) {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [item, onClose]);
+
+  // Lock body scroll
+  useEffect(() => {
+    if (item) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [item]);
 
   if (!item) return null;
 

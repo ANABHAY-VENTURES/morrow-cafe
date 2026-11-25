@@ -496,6 +496,16 @@ export default function Hero({ onOpenReserve, onExploreMenu }) {
             bottom: -1rem !important;
           }
         }
+        @media (max-width: 500px) {
+          .hero-floating-card {
+            position: relative !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            margin-top: 1.25rem !important;
+            max-width: 100% !important;
+            transform: none !important;
+          }
+        }
       `}</style>
     </section>
   );

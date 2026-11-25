@@ -28,6 +28,18 @@ export default function Preloader({ onComplete }) {
     return () => clearInterval(interval);
   }, [onComplete]);
 
+  // Support Escape key to dismiss preloader immediately
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && !isFinished) {
+        setIsFinished(true);
+        if (onComplete) onComplete();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isFinished, onComplete]);
+
   const brandLetters = ['M', 'O', 'R', 'R', 'O', 'W'];
 
   return (
@@ -51,6 +63,9 @@ export default function Preloader({ onComplete }) {
             padding: 'clamp(2rem, 5vw, 4rem)',
             overflow: 'hidden',
           }}
+          role="status"
+          aria-live="polite"
+          aria-label="Loading Morrow Café experience"
         >
           {/* Top Preloader Bar */}
           <div
@@ -67,6 +82,27 @@ export default function Preloader({ onComplete }) {
             }}
           >
             <span>KYOTO KISSATEN × EUROPEAN SALON</span>
+            <button
+              onClick={() => {
+                setIsFinished(true);
+                if (onComplete) onComplete();
+              }}
+              style={{
+                background: 'transparent',
+                border: 'none',
+                color: 'rgba(245, 242, 234, 0.5)',
+                fontSize: '0.7rem',
+                letterSpacing: '0.15em',
+                textTransform: 'uppercase',
+                cursor: 'pointer',
+                padding: '0.2rem 0.5rem',
+                transition: 'color 0.2s ease',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--accent-terracotta)')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245, 242, 234, 0.5)')}
+            >
+              Skip Intro [Esc]
+            </button>
             <span>BENGALURU • EST. 2024</span>
           </div>
 

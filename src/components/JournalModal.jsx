@@ -1,8 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Clock, Calendar, ArrowLeft } from 'lucide-react';
 
 export default function JournalModal({ post, onClose }) {
+  // Close on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && post) {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [post, onClose]);
+
+  // Lock body scroll
+  useEffect(() => {
+    if (post) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [post]);
+
   if (!post) return null;
 
   return (
@@ -38,6 +61,9 @@ export default function JournalModal({ post, onClose }) {
             maxHeight: '90vh',
             overflowY: 'auto',
           }}
+          role="dialog"
+          aria-modal="true"
+          aria-label={post.title}
         >
           {/* Close button */}
           <button

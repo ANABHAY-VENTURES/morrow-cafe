@@ -68,6 +68,17 @@ export default function AmbientPlayer() {
           <span style={{ width: '2px', height: '8px', backgroundColor: 'var(--accent-terracotta)', animation: 'pulse 1.2s infinite alternate' }} />
         </span>
       )}
+
+      <style>{`
+        @media (max-width: 640px) {
+          .ambient-pill {
+            bottom: 1rem !important;
+            left: 1rem !important;
+            padding: 0.4rem 0.75rem !important;
+            max-width: calc(100vw - 2rem);
+          }
+        }
+      `}</style>
     </div>
   );
 }

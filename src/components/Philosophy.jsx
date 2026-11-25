@@ -349,6 +349,13 @@ export default function Philosophy() {
             bottom: -1rem !important;
           }
         }
+        @media (max-width: 500px) {
+          .philosophy-small-photo {
+            width: 44% !important;
+            right: 0.25rem !important;
+            bottom: -0.75rem !important;
+          }
+        }
       `}</style>
     </section>
   );
